@@ -1,0 +1,120 @@
+/* Thomas Harner */
+
+.regions {
+    stroke: #000;
+    stroke-width: 0.5px;
+    stroke-linecap: round;
+}
+
+
+.gratLines{
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+}
+
+.gratBackground {
+    fill: #a1d0d4;
+}
+
+.map {
+    border: medium solid #515f68;
+    /*border-width: 4px;*/
+    margin: 10px 0 0 20px;
+}
+
+
+.chart {
+    background-color: #a1d0d4;;
+    border: medium solid #515f68;
+    float: right;
+    margin: 10px 20px 0 0;
+}
+
+
+.bars{
+    stroke: #000;
+    stroke-width: 0.1px;
+    stroke-linecap: round;
+}
+
+.numbers {
+    fill:white;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow:
+        -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+
+.chartTitle{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow:
+        -1px -1px 0 #FFF,
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;  
+}
+
+.dropdown {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    z-index: 10;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 4px #999;
+
+}
+
+option {
+    font-weight: normal;
+}
+
+/* Chart with scale
+
+.chart {
+    float: right;
+    margin: 7px 20px 0 0;
+}
+
+.chartTitle{
+    font-family: sans-serif;
+    font-size: 1.5 em;
+    font-weight: bold;
+}
+
+.chartBackground {
+    fill: rgba(128,128,128,.2);
+}
+
+.chartFame {
+    fill: none;
+    stroke: #999;
+    stroke-width: 3px;
+    shape-rendering: crispEdges;
+}
+
+.axis path
+.axis line {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 0.8em;
+    fill: #999;
+}
+*/
